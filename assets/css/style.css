@@ -1,0 +1,274 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Global css*/
+header{
+	font-family: 'Bebas Neue', cursive;
+}
+body{
+	font-family: 'Bebas Neue', cursive;
+	background: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*Header section*/
+.header-section{
+    background: url(../img/navbar.png);
+}
+.header-section ul li{
+    padding: 8px 27px;
+    letter-spacing: 4px;
+}
+.header-section li a{
+    position: relative;
+    font-size: 20px;
+    color: #3d2514;
+}
+.header-section .header-image img{
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*Group 2 section*/
+.group-two{
+    padding: 75px 0px;
+}
+.group-two .img-one img{
+    border-radius: 10px;
+}
+.group-two .img-two img{
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.group-two .img-three img{
+    border-radius: 10px;
+}
+
+/*Group 3 section*/
+.group-three{
+    padding: 75px 0px 50px;
+}
+.group-three h5{
+    display: inline;
+    margin-left: 553px;
+    background: #ffc045;
+    padding: 6px 26px;
+}
+.group-three h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 4px;
+}
+.group-three p{
+    text-align: center;
+    padding: 0px 106px 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+.group-three .gthree-one img{
+    margin-top: 30px;
+    width: 100%;
+}
+.group-three .gthree-two img {
+    width: 100%;
+    margin-top: -7px;
+}
+.group-three .gthree-text{
+    text-align: center;
+}
+.group-three .gthree-text h2{
+    color: #3d2514;
+}
+.group-three .gthree-text p{
+    color: #3d2514;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+.group-three .gthree-text .btn-gthree{
+    padding: 8px 45px;
+    background: #bf2222;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    transition: all 0.4s ease-in-out;
+}
+.group-three .gthree-text .btn-gthree:hover{
+    background: #fdbe43;
+    color: #3d2514;
+}
+
+/*Group four*/
+.group-four{
+    padding: 100px 0;
+}
+.group-four .container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.group-four .text{
+    margin-top: 20px;
+    margin-top: 50px;
+}
+.group-four h1{
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 8px;
+    color: #3d2514;
+}
+.group-four h1 span{
+    display: block;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: #3d2514;
+}
+.group-four p{
+    color: #3d2514;
+    padding: 0 154px 0 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.group-four .text .dot-img img{
+    margin-top: 90px;
+}
+
+/*Group 5*/
+.group-five{
+    background: url(../img/gfive.png) no-repeat;
+    background-size: cover;
+    padding: 222px 0px;
+}
+.group-five h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 4px;
+    color: #3d2514;
+}
+.group-five span{
+    display: block;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: #3d2514;
+}
+.group-five input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 80px;
+}
+.group-five .first-input{
+    float: right;
+}
+.group-five .btn{
+    padding: 10px 120px;
+}
+
+
+/*Group-six*/
+.group-six{
+    background: url(../img/footer.png);
+    background-size: cover;
+    height: 600px;
+}
+.footerlogo img{
+    height: 80px;
+    margin-top: 100px;
+}
+.group-six p{
+    color: #fff;
+    margin-top: 45px;
+    padding: 0px 232px 0px 0px;
+    font-size: 16px;
+    font-family: auto;
+    color: #dad6d3;
+}
+.group-six .info ul{
+    margin-top: 52px;
+    margin-left: 239px;
+}
+.group-six .info ul li{
+    color: #fff;
+}
+.group-six .info ul li i{
+    font-size: 26px;
+    display: block;
+    padding: 12px 0px;
+}
+.group-six .info ul li i span{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0px 20px;
+    letter-spacing: 1px;
+}
+.group-six h5{
+    color: #fff;
+    margin-top: 190px;
+}
+.group-six .social-media{
+
+}
+.group-six .social-media ul{
+    margin-top: 184px;
+    margin-left: 316px;
+}
+.group-six .social-media ul li{
+    display: inline;
+    padding: 0px 16px;
+}
+.group-six .social-media ul li a{
+
+}
+.group-six .social-media ul li a i{
+    font-size: 26px;
+    color: #fff;
+}
+.group-six .social-media ul li a i:hover{
+    color: #FFC74D;
+}
+
+
+/*Mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+    .header-section .navbar-brand img{height: 41px;}
+    .header-section .header-image img{width: 100%; height: 240px;}
+    .group-two{padding: 40px 0px;}
+    .group-two .img-one img{border-radius: 10px; width: 100%; margin-bottom: 15px;}
+    .group-two .img-two img{margin-bottom: 15px; width: 100%;}
+    .group-two .img-three img{width: 108%;}
+    .group-three{padding: 20px 0px 0px;}
+    .group-three h5{padding: 6px 21px; margin-left: 65px;}
+    .group-three h1{margin-top: 52px; font-size: 42px;}
+    .group-three p{padding: 0px 16px;}
+    .group-three .gthree-one img{margin-top: 60px;}
+    .group-three .gthree-two img{margin-top: 115px;}
+    .group-three .gthree-one img{margin-top: 115px;}
+    .group-four h1 span{margin-bottom: 20px;}
+    .group-four h1{letter-spacing: 7px; font-size: 50px;}
+    .group-four p{padding-right: 21px;}
+    .group-four .text .dot-img img{margin-top: 0px; margin-bottom: 20px;}
+    .group-four .four img{width: 100%;}
+    .group-five{padding: 30px 0px 88px;}
+    .group-five h1 {padding: 20px; font-size: 38px;}
+    .group-five .first-input{float: none;}
+    .group-five input{padding: 5px 45px; margin: 0 auto;}
+    .footerlogo img{    height: 42px; margin-top: 19px;}
+    .group-six p{margin-top: 30px; padding: 0px;}
+    .group-six .info ul{margin-left: -29px;}
+    .group-six .info ul li i span{font-size: 15px; padding: 0px 8px;}
+    .group-six h5{margin-top: 127px; text-align: center; margin-bottom: 10px; font-size: 17px;}
+    .group-six .social-media ul{margin: 0px; }
+    .group-six .social-media ul li{padding: 0px 12px;}
+    .group-six .info ul li i{font-size: 22px; padding: 6px 0px;}
+    .group-five .btn{ margin: 10px 0px;}
+    .group-six{height: 600px;}
+
+}
